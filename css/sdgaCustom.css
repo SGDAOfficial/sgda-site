@@ -29,3 +29,9 @@ body {
 .card {
     height: 100%;
 }
+
+/* COLORS */
+
+#red{
+  background: #fcfcfc;
+}
