@@ -24,12 +24,12 @@
 
     <script>
 $(document).ready(function(){
-    $("#game_jam_button").click(function(){
+    $("#content").click(function(){
         $("#content").toggleClass("col-md-12 col-md-6");
         $("#content_2").toggleClass("right_collapsed")
         $("#game_jam_des").toggle(300);
     });
-    $("#summit_button").click(function(){
+    $("#content_2").click(function(){
         $("#content").toggleClass("left_collapsed");
         $("#content_2").toggleClass("col-md-12 col-md-6")
         $("#summit_des").toggle(300);
@@ -57,8 +57,9 @@ $(document).ready(function(){
             </li>
             <li class="nav-item">
               <a class="nav-link" href="about.html">About
-              </a>           
-            </li class="nav-item active">
+              </a>  
+            </li>
+            <li class="nav-item active">
               <a class="nav-link" href="events.html">Events
               <span class="sr-only">(current)</span>
             </a>
@@ -80,31 +81,46 @@ $(document).ready(function(){
         
         <div class="row" id="row-main">
             <div class="col-md-6" id="content">
-                <button type="button" class="btn" id="game_jam_button">Toggle Me!</button>
                 <h1 >Game Jam</h1>
                 <div class="text-center">
-                <p id="game_jam_des">
-         The SGDA game jam is a 48 hour event where student game developers get together to create awesome games! 
+                    <div id="game_jam_des">
+                        <img src= "img/FacebookBanner_GGJ.png"></img>
+                    <h2>Crucial Feedback. Networking Opportunities. Constructive Workshops. Endless Ideas. </h2>
+                        
+                                            <h2>ABOUT</h2>
+         <h4>The SGDA game jam is a 48 hour event where student game developers get together to create awesome games! 
             These games will be based off of a theme which will be announced at the day of the event. Our game jam 
             will consist of workshops that will teach you the ins and outs of game development and professionals who 
             will provide adequate feedback on your game. This is a great opportunity for those who want to collaborate 
             with other fellow game developers to experiment on riveting new projects! This year we are collaborating with 
-            the Global Game Jam &copy; and will be hosting two sites for Northern and Southern California.
-                </p>
+             the Global Game Jam &copy; and will be hosting two sites for Northern and Southern California.</h4>
+                                        <h2>WHAT WE OFFER</h2>
+         <h4>The SGDA game jam is a 48 hour event where student game developers get together to create awesome games! 
+            These games will be based off of a theme which will be announced at the day of the event. Our game jam 
+            will consist of workshops that will teach you the ins and outs of game development and professionals who 
+            will provide adequate feedback on your game. This is a great opportunity for those who want to collaborate 
+            with other fellow game developers to experiment on riveting new projects! This year we are collaborating with 
+             the Global Game Jam &copy; and will be hosting two sites for Northern and Southern California.</h4>
+                                        <h2>INTERESTED?</h2>
+         <h4>Well don't just wait here! Register here below!</h4>
+            <a href="http://docs.google.com/forms/d/e/1FAIpQLSc8wdFbj41LjvTlXMoQoj0thiBry4VoD88Ajc6212WLmWr3uA/viewform"><button class="myButton">REGISTER</button></a>
+                    </div>
                 </div>    
 
             </div>
             <div class="col-md-6" id="content_2">
-                <button type="button" class="btn" id="summit_button">Toggle Me!</button>
                 <h1>Summit</h1>
                 <div class="text-center">
-                <p id="summit_des">
+                <div id="summit_des">
+                    <img src="img/summit.JPG" height="30%" width="30%"></img>
+            <p>
             The SGDA summit is an all-day gathering of student, indie, and professional game developers. This is a great 
             NETWORKING opportunity for those who are interested in game development and want to establish a presence within 
             the community! We host workshops that teach new skills in the art of making games as well as hold talks hosted 
             by those of a variety of backgrounds including indie devs, AAA devs, engineers, artists, and businesspeople. 
             This is the place to form new bonds with other developers and become engaged within the game development community! 
-            </p>
+                    </p>
+            </div>
                 </div>    
 
             </div>

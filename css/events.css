@@ -31,8 +31,7 @@ html, body, .container-fluid {
 }
 
 #content {
-    height = 100vh;
-    background: brown;
+    background: rgba(216, 28, 28, 0.05);
     -webkit-transition: width 0.3s ease;
     -moz-transition: width 0.3s ease;
     -o-transition: width 0.3s ease;
