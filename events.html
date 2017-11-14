@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <title>SGDA Events</title>
+      
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+      
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/sdgaCustom.css" rel="stylesheet">
+    <link href="css/events.css" rel="stylesheet">
+
+  </head>
+
+    <script>
+$(document).ready(function(){
+    $("#game_jam_button").click(function(){
+        $("#content").toggleClass("col-md-12 col-md-6");
+        $("#content_2").toggleClass("right_collapsed")
+        $("#game_jam_des").toggle(300);
+    });
+    $("#summit_button").click(function(){
+        $("#content").toggleClass("left_collapsed");
+        $("#content_2").toggleClass("col-md-12 col-md-6")
+        $("#summit_des").toggle(300);
+    });
+
+});
+</script>
+    
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img src="img/logos/sgda2.png" height="50"> 
+        </a>        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About
+              </a>           
+            </li class="nav-item active">
+              <a class="nav-link" href="events.html">Game Jam
+              <span class="sr-only">(current)</span>
+            </a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link" href="sponsor.html">Sponsor</a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link" href="faq.html">FAQ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    
+
+    <div class="container-fluid">
+        
+        <div class="row" id="row-main">
+            <div class="col-md-6" id="content">
+                <button type="button" class="btn" id="game_jam_button">Toggle Me!</button>
+                <h1 >Game Jam</h1>
+                <div class="text-center">
+                <p id="game_jam_des">
+         The SGDA game jam is a 48 hour event where student game developers get together to create awesome games! 
+            These games will be based off of a theme which will be announced at the day of the event. Our game jam 
+            will consist of workshops that will teach you the ins and outs of game development and professionals who 
+            will provide adequate feedback on your game. This is a great opportunity for those who want to collaborate 
+            with other fellow game developers to experiment on riveting new projects! This year we are collaborating with 
+            the Global Game Jam &copy; and will be hosting two sites for Northern and Southern California.
+                </p>
+                </div>    
+
+            </div>
+            <div class="col-md-6" id="content_2">
+                <button type="button" class="btn" id="summit_button">Toggle Me!</button>
+                <h1>Summit</h1>
+                <div class="text-center">
+                <p id="summit_des">
+            The SGDA summit is an all-day gathering of student, indie, and professional game developers. This is a great 
+            NETWORKING opportunity for those who are interested in game development and want to establish a presence within 
+            the community! We host workshops that teach new skills in the art of making games as well as hold talks hosted 
+            by those of a variety of backgrounds including indie devs, AAA devs, engineers, artists, and businesspeople. 
+            This is the place to form new bonds with other developers and become engaged within the game development community! 
+            </p>
+                </div>    
+
+            </div>
+        
+        
+        </div>
+    
+    </div>
+    
+    
+    
+    <!-- Header with Background Image -->
+<!--
+    <header>
+      <div class="jumbotron">
+        <div class="display-3 text-center">
+            <h1>SGDA Game Jam</h1>
+        </div>
+      </div>
+    </header>
+
+<div class="text-center">
+            <p>
+         The SGDA game jam is a 48 hour event where student game developers get together to create awesome games! 
+            These games will be based off of a theme which will be announced at the day of the event. Our game jam 
+            will consist of workshops that will teach you the ins and outs of game development and professionals who 
+            will provide adequate feedback on your game. This is a great opportunity for those who want to collaborate 
+            with other fellow game developers to experiment on riveting new projects! This year we are collaborating with 
+            the Global Game Jam &copy; and will be hosting two sites for Northern and Southern California.
+          </p>
+    </div>    
+
+<div class="text-center">
+  <h1> Registration is Now Open</h1>
+  <p>
+    Registration is Now Open for Our Global Game Jam!
+    <br>                 
+    <a href="register.html" class="btn btn-info" role="button">Register Now</a>
+  </p>
+  </div>
+    
+    <header>
+      <div class="jumbotron">
+        <div class="display-3 text-center">
+            <h1>SGDA Summit</h1>
+        </div>
+      </div>
+    </header>
+-->
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; 2017 by Student Game Developer Alliance.</p>
+        <p class="m-0 text-center text-white"> Website Built by Dylan Lang</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+  </body>
+
+</html>

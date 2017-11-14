@@ -1,0 +1,54 @@
+html, body, .container-fluid {
+    height: 100%;
+}
+
+/*For Events Page */
+.left_collapsed, .right_collapsed {
+    display = none;
+}
+
+.collapsing.width {
+  -webkit-transition-property: width, visibility;
+  transition-property: width, visibility;
+  width: 0;
+  height: auto;
+}
+
+@media (min-width: 992px) {
+    .right_collapsed {
+        display = block;
+        margin-right: -50%;
+    }
+    .left_collapsed {
+        display = block;
+        margin-left: -50%;
+    }
+}
+
+#row-main {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+#content {
+    height = 100vh;
+    background: brown;
+    -webkit-transition: width 0.3s ease;
+    -moz-transition: width 0.3s ease;
+    -o-transition: width 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#content_2 {
+    background: gray;
+    -webkit-transition: width 0.3s ease;
+    -moz-transition: width 0.3s ease;
+    -o-transition: width 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#game_jam_des, #summit_des {
+    display: none;
+}
+
+
