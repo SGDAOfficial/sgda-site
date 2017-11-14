@@ -5,10 +5,34 @@
  *
  * SDGA Custom is the custom CSS for the SDGA website. 
  */
-
+svg{
+  width:100%;
+  display:block;
+}
+@font-face
+{
+    font-family: 'UniversalBold';
+    src: url("../fonts/UniversLTStd-Bold.otf") format("opentype");
+}
+@font-face
+{
+    font-family: 'UniversalObl';
+    src: url("../fonts/UniversLTStd-Obl.otf") format("opentype");
+}
+@font-face
+{
+    font-family: 'UniversalLight';
+    src: url("../fonts/UniversLTStd-LightCn.otf") format("opentype");
+}
 body {
     padding-top: 54px;
 
+
+}
+body, html
+{
+    height: 100%;
+    margin 0;
 }
 
 @media (min-width: 992px) {
@@ -16,6 +40,118 @@ body {
         padding-top: 56px;
     }
 }
+.coverImage
+{
+    background-image: url("../img/coverImage2.png");
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+/* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1024px) {
+    .coverImage {
+        background-attachment: scroll;
+    }
+}
+
+.title
+{
+    left:50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position:absolute;
+
+}
+
+#contentContainer
+{
+    height: 100%;
+}
+
+.section
+{
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+#description
+{
+    background: white;
+}
+#faq
+{
+    background: #383365;
+    color: white;
+}
+.faqTitle
+{
+    color: #cbdaeb;
+}
+#faq a
+{
+    color: #ebe83d;
+}
+
+#sponsor
+{
+    background: white;
+    height: auto;
+}
+.icons
+{
+    width: auto; 
+    height:70px;
+    opacity: .7;
+
+    -webkit-transition-duration: 0.4s;
+    -moz-transition-duration: 0.4s;
+    -o-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+.icons:hover
+{
+    opacity: 1;
+    cursor:pointer;
+}
+.titleSection
+{
+    font-family: "UniversalBold", serif; 
+}
+
+.myButton
+{
+    font-family: "UniversalObl";
+    border:none;
+    display:inline-block;
+    padding:10px 25px;
+    vertical-align:middle;
+    text-decoration:none;
+    color: #222222;
+    background-color: #7abbab;
+    text-align:center;
+    cursor:pointer;
+    white-space:nowrap;
+    border-radius:32px;
+    box-shadow: 2px 2px 2px #3a3466;
+
+    -webkit-transition-duration: 0.4s;
+    -moz-transition-duration: 0.4s;
+    -o-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    
+}
+.myButton:hover
+{
+    background-color: #4f9a87;
+    color: white;
+}
+
 
 .business-header {
     height: 50vh;
