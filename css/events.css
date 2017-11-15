@@ -1,5 +1,6 @@
 html, body, .container-fluid, .col-md-6, .row {
     height: 100%;
+    overflow-x: hidden;
 }
 
 .left_collapsed, .right_collapsed {
@@ -28,12 +29,13 @@ html, body, .container-fluid, .col-md-6, .row {
 #row-main {
     height: 100%;
     overflow-x: hidden;
+    background-image: url("../img/game_jam_event_cover.png");
 }
 
 #content {
 
-    background-image: url("../img/game_jam_event_cover.png");
-    height: 100%;
+    /*background-image: url("../img/game_jam_event_cover.png");*/
+    height: auto;
     width: 100%;
     -webkit-transition: width 0.3s ease;
     -moz-transition: width 0.3s ease;
@@ -43,8 +45,7 @@ html, body, .container-fluid, .col-md-6, .row {
 
 #content_2 {
     background-image: url("../img/summit_event_cover.png");
-
-    height: 100%;
+    height: auto;
     -webkit-transition: width 0.3s ease;
     -moz-transition: width 0.3s ease;
     -o-transition: width 0.3s ease;

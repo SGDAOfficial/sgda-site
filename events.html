@@ -25,12 +25,14 @@
     <script>
 $(document).ready(function(){
     $("#content").click(function(){
+        $("#eventWrapper").toggleClass("container-fluid");
         $("#content").toggleClass("col-md-12 col-md-6");
         $("#content_2").toggleClass("right_collapsed")
         $("#game_jam_des").toggle(300);
         $("#game_jam_title").toggle();
     });
     $("#content_2").click(function(){
+        $("#eventWrapper").toggleClass("container-fluid");
         $("#content").toggleClass("left_collapsed");
         $("#content_2").toggleClass("col-md-12 col-md-6")
         $("#summit_des").toggle(300);
@@ -79,17 +81,17 @@ $(document).ready(function(){
 
     
 
-    <div class="container-fluid">
-        
+    <div id="eventWrapper" class="container-fluid">
         <div class="row" id="row-main">
+            <!-- ***************************  GGJ Section *************************** -->
             <div class="col-md-6 col-wrap" id="content">
-                <div class="centerBlock" id="game_jam_title"><h1 style="font-family: UniversalLight" id="centerTitle">GAME JAM</h1></div>
-
+                <div class="centerBlock" id="game_jam_title">
+                    <h1 style="font-family: UniversalLight" id="centerTitle">GAME JAM</h1>
+                </div>
                 <div class="text-center">
                     <div id="game_jam_des">
                         <img src= "img/FacebookBanner_GGJ.png" height="50%" width="50%"></img>
-                    <h2>Crucial Feedback. Networking Opportunities. Constructive Workshops. Endless Ideas. </h2>
-                        
+                            <h2>Crucial Feedback. Networking Opportunities. Constructive Workshops. Endless Ideas. </h2>
                                             <h2>ABOUT</h2>
          <h4>The SGDA game jam is a 48 hour event where student game developers get together to create awesome games! 
             These games will be based off of a theme which will be announced at the day of the event. Our game jam 
@@ -109,31 +111,46 @@ $(document).ready(function(){
             <a href="http://docs.google.com/forms/d/e/1FAIpQLSc8wdFbj41LjvTlXMoQoj0thiBry4VoD88Ajc6212WLmWr3uA/viewform"><button class="myButton">REGISTER</button></a>
                     </div>
                 </div>    
-
+                <br>
+                <br>
             </div>
+
+            <!-- ***************************  Summit Section *************************** -->
             <div class="col-md-6" id="content_2">
-                <div class="centerBlock" id="summit_title"><h1 style="font-family: UniversalLight">SUMMIT</h1></div>
+                <div class="centerBlock" id="summit_title"><h1 style="font-family: UniversalLight">SUMMIT</h1>
+                </div>
                 <div class="text-center">
-                <div id="summit_des">
+                  <div id="summit_des">
+                    <br>
+                    <br>
                     <img src="img/event_01.png" height="30%" width="30%"></img>
                                             <h2>ABOUT</h2>
+            
             <h4>
             The SGDA summit is an all-day gathering of student, indie, and professional game developers. This is a great 
             NETWORKING opportunity for those who are interested in game development and want to establish a presence within 
             the community! We host workshops that teach new skills in the art of making games as well as hold talks hosted 
             by those of a variety of backgrounds including indie devs, AAA devs, engineers, artists, and businesspeople. 
             This is the place to form new bonds with other developers and become engaged within the game development community! 
-                    </h4>
+            </h4>
                                             <h2>INTERESTED?</h2>
-         <h4>Registration Date is to be announced. Stay tuned for updates!</h4>
+            <h4>Registration Date is to be announced. Stay tuned for updates!</h4>
+                  </div>
+                </div>   
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
             </div>
-                </div>    
-
-            </div>
-        
-        
         </div>
-    
     </div>
     
     
