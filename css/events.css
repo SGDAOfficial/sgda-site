@@ -1,8 +1,7 @@
-html, body, .container-fluid {
+html, body, .container-fluid, .col-md-6, .row {
     height: 100%;
 }
 
-/*For Events Page */
 .left_collapsed, .right_collapsed {
     display = none;
 }
@@ -25,13 +24,17 @@ html, body, .container-fluid {
     }
 }
 
+
 #row-main {
     height: 100%;
     overflow-x: hidden;
 }
 
 #content {
-    background: rgba(216, 28, 28, 0.05);
+
+    background-image: url("../img/game_jam_event_cover.png");
+    height: 100%;
+    width: 100%;
     -webkit-transition: width 0.3s ease;
     -moz-transition: width 0.3s ease;
     -o-transition: width 0.3s ease;
@@ -39,7 +42,9 @@ html, body, .container-fluid {
 }
 
 #content_2 {
-    background: gray;
+    background-image: url("../img/summit_event_cover.png");
+
+    height: 100%;
     -webkit-transition: width 0.3s ease;
     -moz-transition: width 0.3s ease;
     -o-transition: width 0.3s ease;
@@ -48,6 +53,23 @@ html, body, .container-fluid {
 
 #game_jam_des, #summit_des {
     display: none;
+}
+
+
+.centerBlock {
+  border-style: solid;
+  background-color: rgba(255,255,255,0.3);
+  display: table;
+  margin: auto;
+  margin-top: 45%;
+}
+
+#game_jam_title {
+    padding: 10px 10px 1px 10px;
+}
+
+#summit_title {
+        padding: 10px 25px 1px 25px;
 }
 
 

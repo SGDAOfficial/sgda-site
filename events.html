@@ -28,11 +28,13 @@ $(document).ready(function(){
         $("#content").toggleClass("col-md-12 col-md-6");
         $("#content_2").toggleClass("right_collapsed")
         $("#game_jam_des").toggle(300);
+        $("#game_jam_title").toggle();
     });
     $("#content_2").click(function(){
         $("#content").toggleClass("left_collapsed");
         $("#content_2").toggleClass("col-md-12 col-md-6")
         $("#summit_des").toggle(300);
+        $("#summit_title").toggle();
     });
 
 });
@@ -80,11 +82,12 @@ $(document).ready(function(){
     <div class="container-fluid">
         
         <div class="row" id="row-main">
-            <div class="col-md-6" id="content">
-                <h1 >Game Jam</h1>
+            <div class="col-md-6 col-wrap" id="content">
+                <div class="centerBlock" id="game_jam_title"><h1 style="font-family: UniversalLight" id="centerTitle">GAME JAM</h1></div>
+
                 <div class="text-center">
                     <div id="game_jam_des">
-                        <img src= "img/FacebookBanner_GGJ.png"></img>
+                        <img src= "img/FacebookBanner_GGJ.png" height="50%" width="50%"></img>
                     <h2>Crucial Feedback. Networking Opportunities. Constructive Workshops. Endless Ideas. </h2>
                         
                                             <h2>ABOUT</h2>
@@ -109,17 +112,20 @@ $(document).ready(function(){
 
             </div>
             <div class="col-md-6" id="content_2">
-                <h1>Summit</h1>
+                <div class="centerBlock" id="summit_title"><h1 style="font-family: UniversalLight">SUMMIT</h1></div>
                 <div class="text-center">
                 <div id="summit_des">
-                    <img src="img/summit.JPG" height="30%" width="30%"></img>
-            <p>
+                    <img src="img/event_01.png" height="30%" width="30%"></img>
+                                            <h2>ABOUT</h2>
+            <h4>
             The SGDA summit is an all-day gathering of student, indie, and professional game developers. This is a great 
             NETWORKING opportunity for those who are interested in game development and want to establish a presence within 
             the community! We host workshops that teach new skills in the art of making games as well as hold talks hosted 
             by those of a variety of backgrounds including indie devs, AAA devs, engineers, artists, and businesspeople. 
             This is the place to form new bonds with other developers and become engaged within the game development community! 
-                    </p>
+                    </h4>
+                                            <h2>INTERESTED?</h2>
+         <h4>Registration Date is to be announced. Stay tuned for updates!</h4>
             </div>
                 </div>    
 
