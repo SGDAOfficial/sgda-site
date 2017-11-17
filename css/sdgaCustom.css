@@ -31,6 +31,11 @@ body, html
     margin 0;
 }
 
+body
+{
+    padding-top: 76px;
+}
+
 .coverImage
 {
     background-image: url("../img/coverImage2.png");
@@ -42,11 +47,6 @@ body, html
 
 }
 
-@media (min-width: 992px) {
-    body {
-        padding-top: 76px;
-    }
-}
 /* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-device-width: 1024px) {
     .coverImage {
@@ -120,8 +120,7 @@ body, html
 }
 .titleSection
 {
-    font-family: UniversalLight;
-    font-size: 350%;
+    font-family: "UniversalBold", serif;
 }
 
 .myButton
