@@ -28,7 +28,7 @@ svg{
 body, html
 {
     height: 100%;
-    margin 0;
+    margin: 0;
 }
 
 body
@@ -184,4 +184,47 @@ padding-top:10px;
 
 .gframe{
 margin: 0 auto;
+}
+
+/*Speakers Page*/
+#Summit-info-head{
+  font-family: "Arial Black";
+  color: #17a2b8;
+  background-color: #002752;
+}
+
+.speaker-card{
+  /*background-color: rgba(255,255,255,0.75);*/
+  background-color: #f7fbff;
+  border: solid 5px black;
+
+  /*Card Gradient*/
+}
+
+.inner-outline{
+  border: solid 2px black;
+}
+
+.speaker-info{
+  font-weight: 300;
+}
+
+/*Summit Info Page*/
+.event-button{
+  background-color: #dee4e8;
+  border: solid 3px black;
+}
+
+.event-button>a{
+  color: black !important;
+}
+
+.event-button:hover, a:hover{
+  background-color: rgba(222,228,232,0.5);
+  -moz-opacity: 0.5;
+  text-decoration: none;
+}
+
+#adjust-footer{
+  margin-bottom: 310px;
 }
