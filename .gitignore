@@ -2,3 +2,4 @@
 .gitignore
 .idea/
 config.codekit3
+/.gitignore

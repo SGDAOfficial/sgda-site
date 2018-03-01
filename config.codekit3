@@ -159,6 +159,39 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/cpp-gddc.png": {
+		"ft": 32768,
+		"iS": 33810,
+		"oA": 0,
+		"oAP": "\/img\/cpp-gddc.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/csuf-vgdc.png": {
+		"ft": 32768,
+		"iS": 28151,
+		"oA": 0,
+		"oAP": "\/img\/csuf-vgdc.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/csulb-vgda.png": {
+		"ft": 32768,
+		"iS": 56562,
+		"oA": 0,
+		"oAP": "\/img\/csulb-vgda.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/event_01.png": {
 		"ft": 32768,
 		"iS": 204518,
@@ -386,6 +419,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/sgda-logo.png": {
+		"ft": 32768,
+		"iS": 26423,
+		"oA": 0,
+		"oAP": "\/img\/sgda-logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/summit.JPG": {
 		"ft": 16384,
 		"iS": 154866,
@@ -417,11 +461,33 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/uci-vgdc.png": {
+		"ft": 32768,
+		"iS": 51274,
+		"oA": 0,
+		"oAP": "\/img\/uci-vgdc.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/UCRMapIcons.png": {
 		"ft": 32768,
 		"iS": 1697225,
 		"oA": 0,
 		"oAP": "\/img\/UCRMapIcons.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/ucsc-gdac.png": {
+		"ft": 32768,
+		"iS": 35445,
+		"oA": 0,
+		"oAP": "\/img\/ucsc-gdac.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -483,6 +549,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/schedule.html",
+		"oF": 0
+		},
+	"\/showcase.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/showcase.html",
 		"oF": 0
 		},
 	"\/speakers.html": {
@@ -625,6 +698,13 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
+		},
+	"\/workshops.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/workshops.html",
+		"oF": 0
 		}
 	},
 "hooks": [

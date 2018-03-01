@@ -219,10 +219,16 @@ margin: 0 auto;
   color: black !important;
 }
 
-.event-button:hover, a:hover{
+.event-button:hover{
   background-color: rgba(222,228,232,0.5);
   -moz-opacity: 0.5;
   text-decoration: none;
+}
+
+.event-button>a:hover{
+    background-color: rgba(222,228,232,0.5);
+    -moz-opacity: 0.5;
+    text-decoration: none;
 }
 
 #adjust-footer{
