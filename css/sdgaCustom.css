@@ -25,6 +25,11 @@ svg{
     src: url("../fonts/UniversLTStd-LightCn.otf") format("opentype");
 }
 
+.universalBoldFont{
+  font-family: "UniversalBold", serif;
+  font-weight: 900;
+}
+
 body, html
 {
     height: 100%;
