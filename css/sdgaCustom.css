@@ -234,3 +234,31 @@ margin: 0 auto;
 #adjust-footer{
   margin-bottom: 310px;
 }
+
+/*Events page Game Jam and Summit Buttons*/
+#content>a, #content_2>a{
+  text-decoration: none;
+  color: black;
+}
+
+/*About Page*/
+.sgda-values{
+  font-size: 1.25rem;
+}
+
+.club-info:hover{
+  cursor: pointer;
+  opacity: 0.5;
+  -moz-opacity: 0.5;
+  transition: all 0.35s ease-in-out;
+}
+
+.about-moreInfo{
+  background-color: #1b1e21;
+}
+
+.about-moreInfo:hover{
+  text-decoration: none;
+  background-color: red;
+  transition: all 0.5s ease-in-out;
+}
