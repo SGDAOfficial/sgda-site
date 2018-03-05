@@ -36,6 +36,15 @@ body, html
     margin: 0;
 }
 
+/*Navbar Mobile Scrolling Fix*/
+@media (max-width: 767px){
+  nav.navbar{
+    max-height: 100vh;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
 body
 {
     padding-top: 76px;
