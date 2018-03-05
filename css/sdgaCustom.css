@@ -43,6 +43,22 @@ body, html
     overflow: auto;
     -webkit-overflow-scrolling: touch;
   }
+
+  .header-img{
+    /*width: 55% !important;*/
+  }
+}
+
+/*Header Image Fix*/
+@media (min-width: 600px){
+  .header-img{
+    width: 25% !important;
+  }
+
+  .col-lg-8>div>font{
+    font-size: 2.25rem;
+  }
+
 }
 
 body
