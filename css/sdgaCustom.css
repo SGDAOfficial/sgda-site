@@ -70,9 +70,8 @@ body, html
 }
 
 .header-img{
-  width:53% !important;
+  width:100% !important;
   height:auto;
-  margin-top: 5%;
 }
 
 /*Navbar Mobile Scrolling Fix*/
@@ -110,6 +109,7 @@ body
 
 .coverImage
 {
+    min-height: 450px;
     background-image: url("../img/cover_photo.jpg");
     height: 100%; 
     background-attachment: fixed;
