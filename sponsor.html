@@ -9,6 +9,9 @@
 
     <title>SGDA Sponsorships</title>
 
+    <!-- Favicon icon link -->
+    <link rel="icon" type="image/png" href="img/sgda-favicon.png" sizes="32x32" />
+
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -34,11 +37,37 @@
               <a class="nav-link" href="index.html">Home
               </a>
             </li>
-            <li class="nav-item">
-             <a class="nav-link" href="about.html">About</a>
+            <!--About Dropdown-->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="events.html" id="navbarDropdownAboutLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                About
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownAboutLink">
+                <a class="dropdown-item" href="about.html">About</a>
+                <a class="dropdown-item" href="our-members.html">Clubs</a>
+                <a class="dropdown-item" href="team.html">Team</a>
+              </div>
             </li>
-              <a class="nav-link" href="events.html">Events</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="events.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Events
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="events.html">Events</a>
+                <div class="dropdown-divider"></div>
+                <div class="dropdown-item disabled">SGDA 2018</div>
+                <a class="dropdown-item" href="summit-info.html">Summit Info</a>
+                <a class="dropdown-item" href="schedule.html">Schedule & Venue</a>
+                <a class="dropdown-item" href="speakers.html">Speakers</a>
+                <a class="dropdown-item" href="workshops.html">Workshops</a>
+                <a class="dropdown-item" href="showcase.html">Games Showcase</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="game-jam.html">Game Jam</a>
+              </div>
             </li>
+            <!--<li>-->
+              <!--<a class="nav-link" href="events.html">Events</a>-->
+            <!--</li>-->
             <li class="nav-item active">
               <a class="nav-link" href="sponsor.html">Sponsor</a>
               <span class="sr-only">(current)</span>
@@ -116,7 +145,7 @@
     <footer class="py-5 bg-dark">
       <div class="container">
         <p class="m-0 text-center text-white">Copyright &copy; 2017 by Student Game Developer Alliance.</p>
-        <p class="m-0 text-center text-white"> Website Built by Dylan Lang</p>
+        <p class="m-0 text-center text-white"> Website Built by Samuel Huerta &amp; Dylan Lang</p>
       </div>
       <!-- /.container -->
     </footer>

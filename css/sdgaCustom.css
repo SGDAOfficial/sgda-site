@@ -25,10 +25,81 @@ svg{
     src: url("../fonts/UniversLTStd-LightCn.otf") format("opentype");
 }
 
+/*Lato Regular Font*/
+@font-face {
+  font-family: 'Lato-Regular';
+  src: url("../fonts/Lato/Lato-Regular.ttf") format("opentype");
+}
+
+/*Lato Bold Font*/
+@font-face {
+  font-family: 'Lato-Bold';
+  src: url("../fonts/Lato/Lato-Black.ttf") format("opentype");
+}
+
+/*Lato Light Font*/
+@font-face {
+  font-family: 'Lato-Light';
+  src: url("../fonts/Lato/Lato-Light.ttf") format("opentype");
+}
+
+.universalBoldFont{
+  font-family: "UniversalBold", serif;
+  font-weight: 900;
+}
+
+/*Lato regular font class*/
+.lato-Regular-Font{
+  font-family: Lato-Regular;
+}
+
+/*Lato bold font class*/
+.lato-Bold-Font{
+  font-family: Lato-Bold;
+}
+
+/*Lato light font class*/
+.lato-Light-Font{
+  font-family: Lato-Light;
+}
+
 body, html
 {
     height: 100%;
-    margin 0;
+    margin: 0;
+}
+
+.header-img{
+  width:100% !important;
+  height:auto;
+}
+
+/*Navbar Mobile Scrolling Fix*/
+@media (max-width: 767px){
+  nav.navbar{
+    max-height: 100vh;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .header-img{
+    /*width: 55% !important;*/
+  }
+}
+
+/*Header Image Fix*/
+@media (min-width: 640px) and (max-width: 735px) and (min-height: 330px){
+  .header-img{
+    width: 25%;
+  }
+
+  .col-lg-8>div>font{
+    font-size: .725rem;
+  }
+
+  .myButton{
+    transform: scale(0.5);
+  }
 }
 
 body
@@ -38,7 +109,8 @@ body
 
 .coverImage
 {
-    background-image: url("../img/coverImage2.png");
+    min-height: 450px;
+    background-image: url("../img/cover_photo.jpg");
     height: 100%; 
     background-attachment: fixed;
     background-position: center;
@@ -184,4 +256,103 @@ padding-top:10px;
 
 .gframe{
 margin: 0 auto;
+}
+
+/*Speakers Page*/
+#Summit-info-head{
+  font-family: "Lato-Bold";
+  color: white;
+  font-size: 2.5rem;
+  /*border-radius: 0.75rem;*/
+  /*background: #383365;*/
+  background-color: #383365;
+}
+
+.summit-info-category{
+  font-family: Lato-Light;
+  color: #D4E27F;
+}
+
+.speaker-card{
+  /*background-color: rgba(255,255,255,0.75);*/
+  background-color: #f7fbff;
+  border: solid 5px black;
+
+  /*Card Gradient*/
+}
+
+.inner-outline{
+  border: solid 2px black;
+}
+
+.speaker-info{
+  font-weight: 300;
+}
+
+/*Summit Info Page*/
+.event-button{
+  background-color: #dee4e8;
+  border: solid 3px black;
+}
+
+.event-button{
+  color: black !important;
+}
+
+/*.event-button:hover{*/
+  /*background-color: rgba(222,228,232,0.5);*/
+  /*-moz-opacity: 0.5;*/
+  /*text-decoration: none;*/
+/*}*/
+
+.event-button:hover{
+    color: white !important;
+    text-decoration: none;
+    background-color: #383365;
+    -moz-opacity: 0.5;
+    text-decoration: none;
+    transition: all 0.25s ease;
+}
+
+#adjust-footer{
+  margin-bottom: 310px;
+}
+
+/*Events page Game Jam and Summit Buttons*/
+#content>a, #content_2>a{
+  text-decoration: none;
+  color: black;
+}
+
+/*About Page*/
+.sgda-values{
+  font-size: 1.25rem;
+}
+
+.club-info:hover{
+  cursor: pointer;
+  opacity: 0.5;
+  -moz-opacity: 0.5;
+  transition: all 0.35s ease-in-out;
+}
+
+.about-moreInfo{
+  background-color: #1b1e21;
+}
+
+.about-moreInfo:hover{
+  text-decoration: none;
+  background-color: red;
+  transition: all 0.5s ease-in-out;
+}
+
+/*Our-Members Page*/
+#cpp:hover, #csun:hover, #csulb:hover, #csuf:hover, #ucr:hover, #ucsc:hover, #uci:hover, #ucsd:hover, #usc:hover, #speaker:hover, #workshop:hover, #showcase:hover{
+  background-color: #dee4e8;
+  transform: scale(1.10);
+  -moz-text-replace: scale(1.10);
+  -o-transform: scale(1.10);
+  -webkit-transform: scale(1.10);
+  -ms-transform: scale(1.10);
+  transition: all 0.75s ease;
 }
