@@ -263,7 +263,7 @@ margin: 0 auto;
   font-family: "Lato-Bold";
   color: white;
   font-size: 2.5rem;
-  border-radius: 0.75rem;
+  /*border-radius: 0.75rem;*/
   /*background: #383365;*/
   background-color: #383365;
 }
@@ -272,7 +272,6 @@ margin: 0 auto;
   font-family: Lato-Light;
   color: #D4E27F;
 }
-
 
 .speaker-card{
   /*background-color: rgba(255,255,255,0.75);*/
@@ -296,20 +295,23 @@ margin: 0 auto;
   border: solid 3px black;
 }
 
-.event-button>a{
+.event-button{
   color: black !important;
 }
 
-.event-button:hover{
-  background-color: rgba(222,228,232,0.5);
-  -moz-opacity: 0.5;
-  text-decoration: none;
-}
+/*.event-button:hover{*/
+  /*background-color: rgba(222,228,232,0.5);*/
+  /*-moz-opacity: 0.5;*/
+  /*text-decoration: none;*/
+/*}*/
 
-.event-button>a:hover{
-    background-color: rgba(222,228,232,0.5);
+.event-button:hover{
+    color: white !important;
+    text-decoration: none;
+    background-color: #383365;
     -moz-opacity: 0.5;
     text-decoration: none;
+    transition: all 0.25s ease;
 }
 
 #adjust-footer{
@@ -345,7 +347,7 @@ margin: 0 auto;
 }
 
 /*Our-Members Page*/
-#cpp:hover, #csun:hover, #csulb:hover, #csuf:hover, #ucr:hover, #ucsc:hover, #uci:hover, #ucsd:hover, #usc:hover, #speaker:hover{
+#cpp:hover, #csun:hover, #csulb:hover, #csuf:hover, #ucr:hover, #ucsc:hover, #uci:hover, #ucsd:hover, #usc:hover, #speaker:hover, #workshop:hover, #showcase:hover{
   background-color: #dee4e8;
   transform: scale(1.10);
   -moz-text-replace: scale(1.10);
