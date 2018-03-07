@@ -97,9 +97,7 @@ body, html
     font-size: .725rem;
   }
 
-  .myButton{
-    transform: scale(0.5);
-  }
+
 }
 
 body
@@ -109,9 +107,9 @@ body
 
 .coverImage
 {
-    min-height: 450px;
-    background-image: url("../img/cover_photo.jpg");
     height: 100%; 
+    min-height: 480px;
+    background-image: url("../img/cover_photo.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -197,6 +195,7 @@ body
 
 .myButton
 {
+    margin: 0px 15px;
     font-family: "UniversalObl";
     border:none;
     display:inline-block;
@@ -221,6 +220,13 @@ body
 {
     background-color: #4f9a87;
     color: white;
+}
+
+@media (max-width: 735px){
+    .myButton{
+        margin: 0px;
+        transform: scale(0.8);
+    }
 }
 
 
@@ -275,7 +281,7 @@ margin: 0 auto;
 
 .speaker-card{
   /*background-color: rgba(255,255,255,0.75);*/
-  background-color: #f7fbff;
+  background-color: #f7fbffbf;
   border: solid 5px black;
 
   /*Card Gradient*/
