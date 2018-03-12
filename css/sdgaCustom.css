@@ -225,8 +225,8 @@ body
 
 @media (max-width: 735px){
     .myButton{
-        margin: 0px -5px;
-        transform: scale(0.8);
+        margin: 0px -8px;
+        transform: scale(0.85);
     }
 }
 
