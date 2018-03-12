@@ -196,6 +196,7 @@ body
 .myButton
 {
     margin: 0px 15px;
+    font-size: 18px;
     font-family: "UniversalObl";
     border:none;
     display:inline-block;
@@ -224,7 +225,7 @@ body
 
 @media (max-width: 735px){
     .myButton{
-        margin: 0px;
+        margin: 0px -5px;
         transform: scale(0.8);
     }
 }
@@ -242,6 +243,12 @@ body
 
 .card {
     height: 100%;
+}
+
+/* Moves anchor up equal to the navbar size */
+.anchor {
+    position: relative;
+    top: -76px;
 }
 
 /* COLORS */
@@ -352,7 +359,7 @@ margin: 0 auto;
   transition: all 0.5s ease-in-out;
 }
 
-/*Our-Members Page*/
+/*clubs Page
 #cpp:hover, #csun:hover, #csulb:hover, #csuf:hover, #ucr:hover, #ucsc:hover, #uci:hover, #ucsd:hover, #usc:hover, #speaker:hover, #workshop:hover, #showcase:hover{
   background-color: #dee4e8;
   transform: scale(1.10);
@@ -361,4 +368,4 @@ margin: 0 auto;
   -webkit-transform: scale(1.10);
   -ms-transform: scale(1.10);
   transition: all 0.75s ease;
-}
+}*/
