@@ -37,6 +37,7 @@ html, body, .container-fluid, .col-md-6, .row {
     /*background-image: url("../img/game_jam_event_cover.png");*/
     height: auto;
     width: 100%;
+    overflow: hidden;
     -webkit-transition: width 0.3s ease;
     -moz-transition: width 0.3s ease;
     -o-transition: width 0.3s ease;
@@ -46,10 +47,17 @@ html, body, .container-fluid, .col-md-6, .row {
 #content_2 {
     background-image: url("../img/summit_event_cover.png");
     height: auto;
+    width: 100%;
+    overflow: hidden;
     -webkit-transition: width 0.3s ease;
     -moz-transition: width 0.3s ease;
     -o-transition: width 0.3s ease;
     transition: all 0.3s ease;
+}
+@media (max-width: 767px){
+  #content, #content_2 {
+    height: 50%;
+  }
 }
 
 #game_jam_des, #summit_des {
@@ -66,7 +74,25 @@ html, body, .container-fluid, .col-md-6, .row {
   background-color: rgba(255,255,255,0.3);
   display: table;
   margin: auto;
-  margin-top: 45%;
+  margin-top: 35vh;
+}
+@media (max-width: 767px){
+  .centerBlock {
+    margin-top: 20vh;
+    margin-bottom: 15vh;
+  }
+}
+@media (max-height: 456px){
+  .centerBlock {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+  }
+}
+@media (max-height: 228px){
+  .centerBlock {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
 }
 
 #game_jam_title {
