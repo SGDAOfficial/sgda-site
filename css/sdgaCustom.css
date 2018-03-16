@@ -105,6 +105,26 @@ body
     padding-top: 76px;
 }
 
+.sgda-red
+{
+    color: #dc1f2b;
+}
+
+.sgda-teal
+{
+    color: #0495a5;
+}
+
+.sgda-gold
+{
+    color: #d9cc1e;   
+}
+
+.sgda-blue
+{
+    color: #336db2;   
+}
+
 .coverImage
 {
     height: 100%; 
@@ -117,12 +137,12 @@ body
 
 }
 
-/* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed 
+/* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-device-width: 1024px) {
     .coverImage {
         background-attachment: scroll;
     }
-}*/
+}
 
 .title
 {
