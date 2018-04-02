@@ -63,6 +63,11 @@ svg{
   font-family: Lato-Light;
 }
 
+.text-smooth {
+  -webkit-text-stroke: .25px black;
+  -webkit-text-fill-color: black;
+}
+
 body, html
 {
     height: 100%;
@@ -339,6 +344,9 @@ margin: 0 auto;
 .event-button{
   background-color: #dee4e8;
   border: solid 3px black;
+  padding: 0px;
+  text-overflow: clip;
+  word-wrap: break-word;
 }
 
 .event-button{
