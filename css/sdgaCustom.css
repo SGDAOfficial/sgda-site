@@ -389,7 +389,19 @@ margin: 0 auto;
 }
 
 .club-logo-btn{
-    max-height: 100px;
+    max-height: 80px;
+}
+@media (max-width: 767px){
+    .club-logo-btn{
+        max-height: 100px;
+        max-width: 225px;
+    }
+}
+@media (min-width: 992px){
+    .club-logo-btn{
+        max-height: 100px;
+        max-width: 225px;
+    }
 }
 
 .club-info:hover{
