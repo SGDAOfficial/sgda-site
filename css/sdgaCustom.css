@@ -197,8 +197,6 @@ body
     opacity: .7;
     margin: 15px;
     margin-top:0px;
-    
-    image-rendering: pixelated;
 
     -webkit-transition-duration: 0.4s;
     -moz-transition-duration: 0.4s;
@@ -209,8 +207,6 @@ body
 {
     opacity: 1;
     cursor:pointer;
-    
-    image-rendering: pixelated;
 }
 .titleSection
 {
@@ -385,6 +381,37 @@ margin: 0 auto;
 
 .font-weight-bolder {
   font-weight: 800;
+}
+
+.reverse-transition{
+  transition: all 0.5s ease;
+}
+
+.scale-on-hover:hover{
+  transform: scale(1.05);
+  -moz-text-replace: scale(1.05);
+  -o-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transition: all 0.5s ease;
+}
+
+.scale-on-hover-btn:hover{
+  transform: scale(1.1);
+  -moz-text-replace: scale(1.1);
+  -o-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transition: all 0.5s ease;
+}
+
+.scale-on-hover-btn-small:hover{
+  transform: scale(1.25);
+  -moz-text-replace: scale(1.25);
+  -o-transform: scale(1.25);
+  -webkit-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  transition: all 0.5s ease;
 }
 
 /*clubs Page
