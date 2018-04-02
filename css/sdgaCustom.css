@@ -193,10 +193,12 @@ body
 .icons
 {
     width: auto; 
-    height:30px;
+    height:35px;
     opacity: .7;
-    margin: 20px;
+    margin: 15px;
     margin-top:0px;
+    
+    image-rendering: pixelated;
 
     -webkit-transition-duration: 0.4s;
     -moz-transition-duration: 0.4s;
@@ -207,6 +209,8 @@ body
 {
     opacity: 1;
     cursor:pointer;
+    
+    image-rendering: pixelated;
 }
 .titleSection
 {
@@ -377,6 +381,10 @@ margin: 0 auto;
   text-decoration: none;
   background-color: red;
   transition: all 0.5s ease-in-out;
+}
+
+.font-weight-bolder {
+  font-weight: 800;
 }
 
 /*clubs Page
