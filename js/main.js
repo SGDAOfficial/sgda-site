@@ -11,6 +11,9 @@
   $(document).ready(function(){
 
     $(".filter-btn").click(function(){
+        $('.filter-btn').removeClass('active-filter');
+        $(this).addClass("active-filter");
+        
         var value = $(this).attr('data-filter');
         
         if(value == "all")

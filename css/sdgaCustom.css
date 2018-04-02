@@ -383,6 +383,15 @@ margin: 0 auto;
   font-size: 1.25rem;
 }
 
+.club-logo{
+    max-height: 150px;
+    max-width: 300px;
+}
+
+.club-logo-btn{
+    max-height: 100px;
+}
+
 .club-info:hover{
   cursor: pointer;
   opacity: 0.5;
@@ -406,6 +415,15 @@ margin: 0 auto;
 
 .reverse-transition{
   transition: all 0.5s ease;
+}
+
+.active-filter{
+    color: white !important;
+    text-decoration: none;
+    background-color: #383365;
+    -moz-opacity: 0.5;
+    text-decoration: none;
+    transition: all 0.25s ease;
 }
 
 .scale-on-hover:hover{
