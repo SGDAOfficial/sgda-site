@@ -292,6 +292,19 @@ margin: 0 auto;
 }
 
 /*Speakers Page*/
+
+/*Active Speaker Outline*/
+.activeSlide{
+  padding: 5px;
+  background-color: #f0f1f1;
+  border-bottom: #383365 5px solid;
+  transition: all 0.5s ease-in;
+}
+
+.fa-caret-right, .fa-caret-left{
+  color: #383365 !important;
+}
+
 #Summit-info-head{
   font-family: "Lato-Bold";
   color: white;
