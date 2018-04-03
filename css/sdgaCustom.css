@@ -58,6 +58,14 @@ svg{
   font-family: Lato-Bold;
 }
 
+/* makes the font 20% larger relative to the icon container */
+.fa-md-custom {
+  font-size: 1.2em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+}
+
 /*Lato light font class*/
 .lato-Light-Font{
   font-family: Lato-Light;
