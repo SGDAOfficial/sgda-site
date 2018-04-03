@@ -395,6 +395,7 @@ margin: 0 auto;
 .club-logo-btn{
     max-height: 80px;
 }
+/*These media queries cause the About.html when viewed on mobile to become un–centered */
 @media (max-width: 767px){
     .club-logo-btn{
         max-height: 100px;

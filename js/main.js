@@ -9,11 +9,11 @@
   /*THIS is only for the Engineering Panel Carousel*/
   //Grabbing the carousel item length
   var idx_len = $('.carousel-item').length;
-  console.log('Length is ' + idx_len);
+  //console.log('Length is ' + idx_len);
 
   //Predefine the index where to start
   var idx = $('.carousel-item').index() + 1;
-  console.log('Current Carousel item is ' + idx);
+  //console.log('Current Carousel item is ' + idx);
 
   //Removes the carousel-Active-Item class whenever carousel moves to new slide
   $('#carouselExampleControls').on('slid.bs.carousel', function () {
