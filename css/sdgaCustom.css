@@ -138,14 +138,22 @@ nav.navbar{
     transition: all 0.3s;
 }
 
-.main-banner{
-    padding-top: 76px;
-}
-
 
 body
 {
-
+    padding-top: 76px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+@media (max-width: 992px){
+    body
+    {
+        padding-top: 50px;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+    }
 }
 
 .sgda-red
