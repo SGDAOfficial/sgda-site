@@ -1,7 +1,7 @@
-html, body, .container-fluid, .col-md-6, .row {
+/*html, body, .container-fluid, .col-md-6, .row {
     height: 100%;
     overflow-x: hidden;
-}
+}*/
 
 .left_collapsed, .right_collapsed {
     display = none;

@@ -63,8 +63,8 @@ svg{
   font-family: Lato-Light;
 }
 
-.text-smooth {
-  -webkit-text-stroke: .25px black;
+.text-smooth-bold {
+  -webkit-text-stroke: .5px black;
   -webkit-text-fill-color: black;
 }
 
@@ -79,7 +79,32 @@ body, html
   height:auto;
 }
 
+/*Header Image Fix*/
+@media (min-width: 640px) and (max-width: 735px) and (min-height: 330px){
+  .header-img{
+    width: 25%;
+  }
+
+  .col-lg-8>div>font{
+    font-size: .725rem;
+  }
+}
+
+
 /*Navbar Mobile Scrolling Fix*/
+nav.navbar{
+    padding-top: .8125rem;
+    padding-bottom: .8125rem;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.navbar-brand{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
 @media (max-width: 767px){
   nav.navbar{
     max-height: 100vh;
@@ -91,23 +116,28 @@ body, html
     /*width: 55% !important;*/
   }
 }
-
-/*Header Image Fix*/
-@media (min-width: 640px) and (max-width: 735px) and (min-height: 330px){
-  .header-img{
-    width: 25%;
+@media (max-width: 992px){
+  nav.navbar{
+    padding-top: .15rem;
+    padding-bottom: .15rem;
   }
-
-  .col-lg-8>div>font{
-    font-size: .725rem;
-  }
-
-
 }
+#mainNav.navbar-shrink {
+    padding-top: .15rem;
+    padding-bottom: .15rem;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.main-banner{
+    padding-top: 76px;
+}
+
 
 body
 {
-    padding-top: 76px;
+
 }
 
 .sgda-red
@@ -283,10 +313,6 @@ body
 }
 
 
-.ccenter{
-    text-align:center;
-}
-
 /*footer padding*/
 .footr{
 padding-top:10px;
@@ -421,8 +447,8 @@ margin: 0 auto;
   transition: all 0.5s ease-in-out;
 }
 
-.font-weight-bolder {
-  font-weight: 800;
+.font-weight-500 {
+  font-weight: 500;
 }
 
 .reverse-transition{
