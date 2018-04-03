@@ -298,6 +298,10 @@ margin: 0 auto;
 
 /*Speakers Page*/
 
+.active-Carousel-Item{
+  border-bottom: 5px solid rgb(56, 51, 101);
+}
+
 /*Active Speaker Outline*/
 .activeSlide{
   padding: 5px;
