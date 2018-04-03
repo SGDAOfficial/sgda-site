@@ -22,6 +22,9 @@
     
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
+  <!--FontAwesome Latest-->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -85,12 +88,12 @@
 
 <!--Speakers Page Content-->
   <div class="container">
-    <div class="row">
+    <div class="row" id="top">
         <!--Summit Info // Guest Speakers-->
         <div class="col-12 mx-auto p-4 mt-4" id="Summit-info-head">
           SUMMIT INFO <span class="lato-Light-Font">|</span> <span class="summit-info-category">GUEST SPEAKERS</span>
         </div>
-        
+
      <!--Speaker Card-->
       <div class="speaker-card p-2 mt-4 mb-3 m-2 text-center col-lg-10 mx-auto">
         <div class="inner-outline p-3" id="speaker">
@@ -142,10 +145,10 @@
           </div>
           <div class="row">
             <div class="col-md-3 col-5 d-block mx-auto">
-              <img src="img/speakers/paul_laska.png" class="img-fluid p-2" alt="">
+              <img id="speaker-img-0" src="img/speakers/paul_laska.png" class="img-fluid p-2" alt="">
             </div>
             <div class="col-md-3 col-5 d-block mx-auto">
-              <img src="img/speakers/koray_hagen.png" class="img-fluid p-2" alt="">
+              <img id="speaker-img-1" src="img/speakers/koray_hagen.png" class="img-fluid p-2" alt="">
             </div>
             <div class="col-md-3 col-5 d-block mx-auto">
               <img src="img/speakers/anon_female.png" class="img-fluid p-2" alt="">
@@ -160,7 +163,7 @@
                   <!--Carousel Item Paul-->
                   <div class="carousel-item active">
                     <!--Bio Content Here-->
-                    <h5 class="font-weight-bold mt-2 mb-1 activeSlide">Paul Laska</h5>
+                    <h5 class="font-weight-bold mt-2 mb-1 activeSlide" id="Speaker-0">Paul Laska</h5>
                     <h6 class="font-weight-bold">(Senior Generalist Programmer - Blind Squirrel Games)</h6>
                     <p class="speaker-info">Paul is a Senior Generalist Programmer currently working on an unannounced title for one of Blind Squirrel Games’ amazing partners.  In his 2 years at the studio, Paul has contributed to shipping AAA titles and has lead a team of engineers on Sims 4.  Past game projects Paul has worked on include Firefall, Wall-E, Transformers 1 & 2, Marvel Ultimate Alliance 2 and Spider-man 3, for Red 5 Studios, Savage Entertainment and Treyarch.  With experience ranging from gameplay to engine work, Paul is a valued team member who helps shape our industry’s future by sharing his knowledge with team members and taking an active, personal interest in student development.
                     </p>
@@ -168,7 +171,7 @@
                   <!--Carousel Item Koray-->
                   <div class="carousel-item">
                     <!--Bio Content Here-->
-                    <h5 class="font-weight-bold mt-2 mb-1 activeSlide">Koray Hagen</h5>
+                    <h5 class="font-weight-bold mt-2 mb-1 activeSlide" id="Speaker-1">Koray Hagen</h5>
                     <h6 class="font-weight-bold">(Senior Software Engineer - SIE Santa Monica Studio)</h6>
                     <p class="speaker-info">Koray is a tools and engine programmer currently working on central technology efforts and putting the finishing touches on the PlayStation 4 exclusive, God of War, at Santa Monica Studio. In his four years at the studio, Koray has developed an expertise in cutting-edge technology for game asset pipelines and character animation systems. In the past Koray has also contributed to Xbox, League of Legends, and Hearthstone at Microsoft, Blizzard, and Riot Games respectively. Having previously founded his own student game development club at Cal Poly Pomona, Koray enjoys sharing his experience with students.
                     </p>
@@ -221,10 +224,10 @@
           </div>
           <div class="row">
             <div class="col-md-3 col-5 d-block mx-auto">
-              <img src="img/speakers/jason_fader.png" class="img-fluid p-2" alt="">
+              <img id="speaker-img-2" src="img/speakers/jason_fader.png" class="img-fluid p-2" alt="">
             </div>
             <div class="col-md-3 col-5 d-block mx-auto">
-              <img src="img/speakers/carrie_patel.png" class="img-fluid p-2" alt="">
+              <img id="speaker-img-3" src="img/speakers/carrie_patel.png" class="img-fluid p-2" alt="">
             </div>
             <div class="col-md-3 col-5 d-block mx-auto">
               <img src="img/speakers/anon_female.png" class="img-fluid p-2" alt="">
@@ -239,7 +242,7 @@
                   <!--Carousel Item Paul-->
                   <div class="carousel-item active">
                     <!--Bio Content Here-->
-                    <h5 class="font-weight-bold mt-2 mb-1 activeSlide">Jason Fader</h5>
+                    <h5 class="font-weight-bold mt-2 mb-1 activeSlide" id="Speaker-2">Jason Fader</h5>
                     <h6 class="font-weight-bold">(Game Director | President - IGDA OC)</h6>
                     <p class="speaker-info">An 18 year industry veteran, Jason has led and contributed to many titles
                       including Fallout: New Vegas, World of Warcraft, Warcraft 3, Diablo 2: Lord of Destruction,
@@ -250,7 +253,7 @@
                   <!--Carousel Item Koray-->
                   <div class="carousel-item">
                     <!--Bio Content Here-->
-                    <h5 class="font-weight-bold mt-2 mb-1 activeSlide">Carrie Patel</h5>
+                    <h5 class="font-weight-bold mt-2 mb-1 activeSlide" id="Speaker-3">Carrie Patel</h5>
                     <h6 class="font-weight-bold">(Novelist | Lead Narrative Designer - Obsidian Entertainment)</h6>
                     <p class="speaker-info">Carrie Patel is a narrative designer and writer at Obsidian Entertainment,
                       where she is currently Narrative Co-Lead on Pillars of Eternity II: Deadfire. Her writing credits
@@ -371,11 +374,8 @@
       <a href="workshops.html" class="d-block p-3 col-md-5 d-block mx-auto event-button m-1">WORKSHOPS</a>
       <a href="showcase.html" class="d-block p-3 col-md-5 d-block mx-auto event-button m-1">GAMES SHOWCASE</a>
     </div>
-      
+
   </div> <!-- .container -->
-
-
-
 
 <!-- Footer -->
 <footer class="py-5 bg-dark footr">
@@ -389,11 +389,33 @@
   <!-- /.container -->
 </footer>
 <!-- Bootstrap core JavaScript -->
-<script src="vendor/jquery/jquery.min.js"></script>
-<script src="vendor/popper/popper.min.js"></script>
+<script src="vendor/jquery/jquery.js"></script>
+<script src="vendor/popper/popper.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 <!--Custom JS-->
 <script src="js/main.js"></script>
+
+<!--To Top Button with Scroll Animation-->
+<ul class="nav justify-content-end fixed-bottom">
+  <li class="nav-item">
+    <a href="#top" class="scrollToTop col-1">
+      <button class="btn btn-light mb-1 ml-1">
+        <i class="fas fa-arrow-alt-circle-up fa-1x"></i>
+      </button>
+    </a>
+</ul>
+
+<script>
+  $(document).ready(function(){
+    //Click event to scroll to top
+    $('.scrollToTop').click(function(){
+      $('html, body').animate({scrollTop : 0},800);
+      return false;
+    });
+
+  });
+</script>
+
 
 </body>
 
