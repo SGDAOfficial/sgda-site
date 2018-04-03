@@ -64,6 +64,11 @@ svg{
   line-height: 0.75em;
   vertical-align: -15%;
 }
+
+@media (max-width: 767px){
+    .m-xs-mobile {
+      margin: 0.1rem !important;
+    }
 }
 
 /*Lato light font class*/
