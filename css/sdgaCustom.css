@@ -69,6 +69,12 @@ svg{
     .m-xs-mobile {
       margin: 0.1rem !important;
     }
+    .pl-0-mobile {
+      padding-left: 0 !important;
+    }
+    .pr-0-mobile {
+      padding-right: 0 !important;
+    }
 }
 
 /*Lato light font class*/
