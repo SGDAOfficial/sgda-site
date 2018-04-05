@@ -44,7 +44,7 @@
   $('#carouselExampleControls').on('slid.bs.carousel', function () {
     //Grabs the current speaker img element to see what is grabbed
     var speaker_img = document.getElementById('speaker-img-' + idx);
-    speaker_img.classList.remove('active-Carousel-Item')
+    speaker_img.classList.remove('active-Carousel-Item');
   });
 
   //This adds the carousel-Active-Item class whenever a new slide is introduced

@@ -351,6 +351,17 @@ margin: 0 auto;
 
 /*Speakers Page*/
 
+.carousel-indicators>li{
+  height: 5px !important;
+  width: 5px !important;
+  border-radius: 50px !important;
+  background-color: rgba(56, 51, 101, 0.55) !important;
+}
+
+.carousel-indicators .active{
+  background-color: rgba(56, 51, 101, 1) !important;
+}
+
 .active-Carousel-Item{
   border-bottom: 5px solid rgb(56, 51, 101);
 }
@@ -448,7 +459,7 @@ margin: 0 auto;
 .club-logo-btn{
     max-height: 80px;
 }
-/*These media queries cause the About.html when viewed on mobile to become un–centered */
+
 @media (max-width: 767px){
     .club-logo-btn{
         max-height: 100px;
