@@ -60,7 +60,7 @@
       // console.log('Slide # is ' + idx);
       // console.log(current_carousel_speaker_name);
       // console.log(speaker_img);
-      speaker_img.classList.add('active-Carousel-Item')
+      speaker_img.classList.add('active-Carousel-Item');
       //$s_img.toggleClass('active-Carousel-Item');
       idx++;
       break;

@@ -22,8 +22,12 @@
     
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
+  <!--Animate CSS-->
+  <link rel="stylesheet" href="vendor/animateCSS/animate.css" rel="stylesheet" type="text/css">
+
   <!--FontAwesome Latest-->
   <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+
 
 </head>
 
@@ -161,7 +165,9 @@
             </div>
             <!--Carousel Event-->
             <div class="col-12">
-              <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+              <!--<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">-->
+              <!--Removed the .slide class since it caused a delay from slide to slide transition-->
+              <div id="carouselExampleControls" class="carousel carousel-fade" data-ride="carousel">
                 <!--Current Slide Indicators for current slide, same result when clicking an image-->
                 <ol class="carousel-indicators">
                   <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
@@ -170,7 +176,7 @@
 
                 <div class="carousel-inner">
                   <!--Carousel Item Paul-->
-                  <div class="carousel-item active">
+                  <div class="carousel-item active animated slideInLeft">
                     <!--Bio Content Here-->
                     <h5 class="font-weight-bold mt-2 mb-1 activeSlide" id="Speaker-0">Paul Laska</h5>
                     <h6 class="font-weight-bold">(Senior Generalist Programmer - Blind Squirrel Games)</h6>
@@ -185,9 +191,9 @@
                     </p>
                   </div>
                   <!--Carousel Item Koray-->
-                  <div class="carousel-item">
+                  <div class="carousel-item animated slideInLeft">
                     <!--Bio Content Here-->
-                    <h5 class="font-weight-bold mt-2 mb-1 activeSlide" id="Speaker-1">Koray Hagen</h5>
+                    <h5 class="font-weight-bold mt-2 mb-1 activeSlide " id="Speaker-1">Koray Hagen</h5>
                     <h6 class="font-weight-bold">(Senior Software Engineer - SIE Santa Monica Studio)</h6>
                     <p class="speaker-info mb-5">Koray is a tools and engine programmer currently working on central
                       technology efforts and putting the finishing touches on the PlayStation 4 exclusive, God of War,
@@ -261,7 +267,7 @@
             </div>
             <!--Carousel Event-->
             <div class="col-12">
-              <div id="carouselExampleControls-2" class="carousel slide" data-ride="carousel">
+              <div id="carouselExampleControls-2" class="carousel" data-ride="carousel">
 
                 <!--Current Slide Indicators for current slide, same result when clicking an image-->
                 <ol class="carousel-indicators">
@@ -271,7 +277,7 @@
 
                 <div class="carousel-inner">
                   <!--Carousel Item Paul-->
-                  <div class="carousel-item active">
+                  <div class="carousel-item active animated slideInLeft">
                     <!--Bio Content Here-->
                     <h5 class="font-weight-bold mt-2 mb-1 activeSlide" id="Speaker-2">Jason Fader</h5>
                     <h6 class="font-weight-bold">(Game Director | President - IGDA OC)</h6>
@@ -282,7 +288,7 @@
                       2013.</p>
                   </div>
                   <!--Carousel Item Koray-->
-                  <div class="carousel-item">
+                  <div class="carousel-item animated slideInLeft">
                     <!--Bio Content Here-->
                     <h5 class="font-weight-bold mt-2 mb-1 activeSlide" id="Speaker-3">Carrie Patel</h5>
                     <h6 class="font-weight-bold">(Novelist | Lead Narrative Designer - Obsidian Entertainment)</h6>

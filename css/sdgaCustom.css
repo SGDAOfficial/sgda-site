@@ -350,6 +350,43 @@ margin: 0 auto;
 }
 
 /*Speakers Page*/
+/*.carousel-fade .carousel-item {*/
+  /*display: block;*/
+  /*position: relative;*/
+  /*opacity: 0;*/
+  /*transition: opacity .75s ease-in-out;*/
+/*}*/
+/*.carousel-fade .carousel-item.active {*/
+  /*opacity: 1;*/
+  /*display: block;*/
+/*}*/
+/*.carousel-item {*/
+  /*opacity: .5; !*Added clone in this line*!*/
+/*}*/
+/*a.carousel-control-next:link, a.carousel-control-prev:link {*/
+  /*background-color: transparent;*/
+  /*text-decoration: none;*/
+  /*opacity: .5;*/
+/*}*/
+/*a.carousel-control-next:hover, a.carousel-control-prev:hover  {*/
+  /*background-color: transparent;*/
+  /*text-decoration: none;*/
+  /*opacity: 1;*/
+/*}*/
+/*.carousel-control-next-icon, .carousel-control-prev-icon {*/
+  /*position:relative;*/
+  /*background-image: none;*/
+/*}*/
+/*.carousel-control-next-icon:before {*/
+  /*top:0;*/
+  /*left:-5px;*/
+  /*padding-right:10px;*/
+/*}*/
+/*.carousel-control-prev-icon:before {*/
+  /*top:0;*/
+  /*left:-5px;*/
+  /*padding-right:10px;*/
+/*}*/
 
 .carousel-indicators>li{
   height: 5px !important;
