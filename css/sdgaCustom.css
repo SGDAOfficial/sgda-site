@@ -184,7 +184,7 @@ body
 
 .sgda-blue
 {
-    color: #336db2;   
+    color: #336db2   
 }
 
 .coverImage
@@ -400,7 +400,7 @@ margin: 0 auto;
 }
 
 .active-Carousel-Item{
-  border-bottom: 5px solid rgb(56, 51, 101);
+  /*border-bottom: 5px solid rgb(56, 51, 101);*/
 }
 
 /*Active Speaker Outline*/
