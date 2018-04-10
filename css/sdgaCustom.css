@@ -581,3 +581,8 @@ margin: 0 auto;
   -ms-transform: scale(1.10);
   transition: all 0.75s ease;
 }*/
+
+/*Scroll to top button*/
+button{
+  cursor: pointer;
+}
