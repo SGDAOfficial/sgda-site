@@ -77,7 +77,7 @@
         speaker_img.classList.add('active-Carousel-Item');
         gdp_idx = 2;
         break;
-      case 'Benson Russel':
+      case 'Benson Russell':
         speaker_img.classList.add('active-Carousel-Item');
         gdp_idx = 3;
         break;

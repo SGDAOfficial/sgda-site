@@ -449,6 +449,7 @@ margin: 0 auto;
 .event-button{
   background-color: #dee4e8;
   border: solid 3px black;
+  border-radius: 10px;
   padding: 0px;
   text-overflow: clip;
   word-wrap: break-word;
