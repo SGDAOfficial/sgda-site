@@ -388,7 +388,12 @@ margin: 0 auto;
   /*padding-right:10px;*/
 /*}*/
 
+a.carousel-control-next, a.carousel-control-prev{
+  margin-top: 35% !important;
+}
+
 .carousel-indicators>li{
+
   height: 3px !important;
   width: 25px !important;
   border-radius: 50px !important;
@@ -400,7 +405,7 @@ margin: 0 auto;
 }
 
 .active-Carousel-Item{
-  /*border-bottom: 5px solid rgb(56, 51, 101);*/
+  border-bottom: 5px solid rgb(56, 51, 101);
 }
 
 /*Active Speaker Outline*/

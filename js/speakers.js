@@ -1,95 +1,163 @@
+$(document).ready(function () {
+
 (function($) {
   "use strict"; // Start of use strict
   //Carousel interval timer
   $('.carousel').carousel({
     interval: 8000
   })
-    
+
 //Carousel
   /*Pauses the Carousel whenever hover over with pointer in order to read the Speaker Bio otherwise it will move to the next item due to the time interval*/
   $('.carousel').carousel(function () {
     this.pause(true);
   });
 
+  // var $speaker_image_ID = $('#Speaker-images');
+  // var $speaker_Row = ($speaker_image_ID);
+  //
+  // var $korayIsActive = '<div class="row"  id="Speaker-images">\n' +
+  //   '\n' +
+  //   '            <div class="col-md-3 col-5 d-block mx-auto">\n' +
+  //   '              <a href="" data-target="#carouselExampleControls" data-slide-to="0">\n' +
+  //   '                <img id="speaker-img-0" src="img/speakers/paul_laska.png" class="img-fluid p-2" alt="">\n' +
+  //   '              </a>\n' +
+  //   '            </div>\n' +
+  //   '            <div class="col-md-3 col-5 d-block mx-auto">\n' +
+  //   '              <a href="" data-target="#carouselExampleControls" data-slide-to="1">\n' +
+  //   '                <img id="speaker-img-1" src="img/speakers/koray_hagen.png" class="img-fluid p-2 active-Carousel-Item" alt="">\n' +
+  //   '              </a>\n' +
+  //   '            </div>\n' +
+  //   '            <div class="col-md-3 col-5 d-block mx-auto">\n' +
+  //   '              <a href="" data-target="#carouselExampleControls" data-slide-to="2">\n' +
+  //   '                <img id="speaker-img-2" src="img/speakers/rachelle_davis.png" class="img-fluid p-2" alt="">\n' +
+  //   '              </a>\n' +
+  //   '            </div>\n' +
+  //   '            <div class="col-md-3 col-5 d-block mx-auto">\n' +
+  //   '              <a href="" data-target="#carouselExampleControls" data-slide-to="3">\n' +
+  //   '                <img id="speaker-img-3" src="img/speakers/tim_ford.png" class="img-fluid p-2" alt="">\n' +
+  //   '              </a>\n' +
+  //   '            </div>\n' +
+  //   '\n' +
+  //   '          </div>';
+  //
+  // var $rachelleIsActive = '<div class="row"  id="Speaker-images">\n' +
+  //   '\n' +
+  //   '            <div class="col-md-3 col-5 d-block mx-auto">\n' +
+  //   '              <a href="" data-target="#carouselExampleControls" data-slide-to="0">\n' +
+  //   '                <img id="speaker-img-0" src="img/speakers/paul_laska.png" class="img-fluid p-2" alt="">\n' +
+  //   '              </a>\n' +
+  //   '            </div>\n' +
+  //   '            <div class="col-md-3 col-5 d-block mx-auto">\n' +
+  //   '              <a href="" data-target="#carouselExampleControls" data-slide-to="1">\n' +
+  //   '                <img id="speaker-img-1" src="img/speakers/koray_hagen.png" class="img-fluid p-2" alt="">\n' +
+  //   '              </a>\n' +
+  //   '            </div>\n' +
+  //   '            <div class="col-md-3 col-5 d-block mx-auto">\n' +
+  //   '              <a href="" data-target="#carouselExampleControls" data-slide-to="2">\n' +
+  //   '                <img id="speaker-img-2" src="img/speakers/rachelle_davis.png" class="img-fluid p-2 active-Carousel-Item" alt="">\n' +
+  //   '              </a>\n' +
+  //   '            </div>\n' +
+  //   '            <div class="col-md-3 col-5 d-block mx-auto">\n' +
+  //   '              <a href="" data-target="#carouselExampleControls" data-slide-to="3">\n' +
+  //   '                <img id="speaker-img-3" src="img/speakers/tim_ford.png" class="img-fluid p-2" alt="">\n' +
+  //   '              </a>\n' +
+  //   '            </div>\n' +
+  //   '\n' +
+  //   '          </div>';
+  //
+  // var paul_image_obj = '<div class="col-md-3 col-5 d-block mx-auto">\n' +
+  //   '              <a href="" data-target="#carouselExampleControls" data-slide-to="0">\n' +
+  //   '               <img id="speaker-img-0" src="img/speakers/paul_laska.png" class="img-fluid p-2" alt="">\n' +
+  //   '              </a>';
+  //
+  // var paul_active_image_obj = '<div class="col-md-3 col-5 d-block mx-auto">\n' +
+  //   '              <a href="" data-target="#carouselExampleControls" data-slide-to="0">\n' +
+  //   '               <img id="speaker-img-0" src="img/speakers/paul_laska.png" class="img-fluid p-2 active-Carousel-Item" alt="">\n' +
+  //   '              </a>';
+  //
+  // var koray_image_obj = '<div class="col-md-3 col-5 d-block mx-auto">\n' +
+  //   '              <a href="" data-target="#carouselExampleControls" data-slide-to="1">\n' +
+  //   '               <img id="speaker-img-1" src="img/speakers/koray_hagen.png" class="img-fluid p-2" alt="">\n' +
+  //   '              </a>\n' +
+  //   '            </div>';
+  //
+  // var koray_active_image_obj = '<div class="col-md-3 col-5 d-block mx-auto">\n' +
+  //   '              <a href="" data-target="#carouselExampleControls" data-slide-to="1">\n' +
+  //   '               <img id="speaker-img-1" src="img/speakers/koray_hagen.png" class="img-fluid p-2 active-Carousel-Item" alt="">\n' +
+  //   '              </a>\n' +
+  //   '            </div>';
+  //
+  // var rachelle_image_obj = '<div class="col-md-3 col-5 d-block mx-auto">\n' +
+  //   '              <a href="" data-target="#carouselExampleControls" data-slide-to="2">\n' +
+  //   '               <img id="speaker-img-2" src="img/speakers/rachelle_davis.png" class="img-fluid p-2" alt="">\n' +
+  //   '              </a>\n' +
+  //   '            </div>';
+  //
+  // var rachelle_active_image_obj = '<div class="col-md-3 col-5 d-block mx-auto">\n' +
+  //   '              <a href="" data-target="#carouselExampleControls" data-slide-to="2">\n' +
+  //   '               <img id="speaker-img-2" src="img/speakers/rachelle_davis.png" class="img-fluid p-2 active-Carousel-Item" alt="">\n' +
+  //   '              </a>\n' +
+  //   '            </div>';
+  //
+  //   var tim_image_obj = '<div class="col-md-3 col-5 d-block mx-auto">\n' +
+  //     '              <a href="" data-target="#carouselExampleControls" data-slide-to="3">\n' +
+  //     '               <img id="speaker-img-3" src="img/speakers/tim_ford.png" class="img-fluid p-2" alt="">\n' +
+  //     '              </a>\n' +
+  //     '            </div>';
+  //
+  // var tim_active_image_obj = '<div class="col-md-3 col-5 d-block mx-auto">\n' +
+  //   '              <a href="" data-target="#carouselExampleControls" data-slide-to="3">\n' +
+  //   '               <img id="speaker-img-3" src="img/speakers/tim_ford.png" class="img-fluid p-2 active-Carousel-Item" alt="">\n' +
+  //   '              </a>\n' +
+  //   '            </div>';
+
+    //$speaker_image_ID.prepend(tim_image_obj).prepend(rachelle_image_obj).prepend(koray_image_obj).prepend(paul_image_obj);
+
   /*THIS is only for the Engineering Panel Carousel*/
   //Grabbing the carousel item length
   var idx_len = $('.carousel-item').length;
   //console.log('Length is ' + idx_len);
 
-  //Predefine the index where to start
-  var idx = $('.carousel-item').index() + 1;
-  //console.log('Current Carousel item is ' + idx);
+  $('#carouselExampleControls').on('slide.bs.carousel', function (e) {
+    var active = $(e.target).find('.carousel-inner > .item.active');
+    var from = active.index();
+    var next = $(e.relatedTarget);
+    var to = next.index();
+    console.log(from + ' => ' + to);
+    var current_carousel_speaker_name = document.getElementById('Speaker-' + to).innerText;
+    //var speaker_img = document.getElementById('speaker-img-' + to);
+    var $speaker_img = $('#speaker-img-1');
 
-  //Removes the carousel-Active-Item class whenever carousel moves to new slide
-  $('#carouselExampleControls').on('slid.bs.carousel', function () {
-    //Grabs the current speaker img element to see what is grabbed
-    var speaker_img = document.getElementById('speaker-img-' + idx);
-    speaker_img.classList.remove('active-Carousel-Item');
-  });
-
-  //This adds the carousel-Active-Item class whenever a new slide is introduced
-  $('#carouselExampleControls').on('slide.bs.carousel', function () {
-
- //Grabbing each speaker name
-  var current_carousel_speaker_name = document.getElementById('Speaker-' + idx).innerText;
-
-  var speaker_img = document.getElementById('speaker-img-' + idx);
-
-  switch (current_carousel_speaker_name){
-    case 'Paul Laska':
-      speaker_img.classList.add('active-Carousel-Item');
-      idx = 1;
-      break;
-    case 'Koray Hagen':
-      speaker_img.classList.add('active-Carousel-Item');
-      idx = 2;
-      break;
-    case 'Rachelle Davis':
-      speaker_img.classList.add('active-Carousel-Item');
-      idx = 3;
-      break;
-    case 'Tim Ford':
-      speaker_img.classList.add('active-Carousel-Item');
-      idx = 4;
-      break;
-  }
-  });
-
-  //Predefine the index where to start
-  var gdp_idx = $('.carousel-item').index() + 5;
-  //Removes the carousel-Active-Item class whenever carousel moves to new slide
-  $('#carouselExampleControls-2').on('slid.bs.carousel', function () {
-    //Grabs the current speaker img element to see what is grabbed
-    var speaker_img = document.getElementById('speaker-img-' + gdp_idx);
-    speaker_img.classList.remove('active-Carousel-Item')
-  });
-
-  //This adds the carousel-Active-Item class whenever a new slide is introduced
-  $('#carouselExampleControls-2').on('slide.bs.carousel', function () {
-
-    //Grabbing each speaker name
-    var current_carousel_speaker_name = document.getElementById('Speaker-' + gdp_idx).innerText;
-
-    var speaker_img = document.getElementById('speaker-img-' + gdp_idx);
-
-    switch (current_carousel_speaker_name){
-      case 'Jason Fader':
-        speaker_img.classList.add('active-Carousel-Item');
-        gdp_idx = 1;
+    switch (to){
+      case 0:
+        //console.log(current_carousel_speaker_name);
+        //$speaker_image_ID.append(paul_image_obj);
         break;
-      case 'Carrie Patel':
-        speaker_img.classList.add('active-Carousel-Item');
-        gdp_idx = 2;
+      case 1:
+        //console.log(current_carousel_speaker_name);
+        //$speaker_image_ID.append(koray_image_obj);
+        //$speaker_image_ID.append($korayIsActive);
+        //$speaker_img.classList.add('.active-Carousel-Item');
+        //$speaker_img.css("border-bottom", "5px solid rgb(56, 51, 101);");
         break;
-      case 'Benson Russell':
-        speaker_img.classList.add('active-Carousel-Item');
-        gdp_idx = 3;
+      case 2:
+        console.log(current_carousel_speaker_name);
+        //$speaker_image_ID.append($rachelleIsActive);
+        //$speaker_image_ID.replaceWith($rachelleIsActive);
+        //$speaker_image_ID.append(rachelle_image_obj);
+        //$speaker_img.classList.add('.active-Carousel-Item');
         break;
-      case 'Craig Brown':
-        speaker_img.classList.add('active-Carousel-Item');
-        gdp_idx = 4;
+      case 3:
+        console.log(current_carousel_speaker_name);
+        //$speaker_image_ID.replaceWith(tim_image_obj);
+        //$speaker_img.classList.add('.active-Carousel-Item');
         break;
     }
-  });
-    
+
+
+  })
+
 })(jQuery); // End of use strict
+
+}); //Document ready
