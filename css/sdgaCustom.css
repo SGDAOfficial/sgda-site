@@ -404,6 +404,10 @@ a.carousel-control-next, a.carousel-control-prev{
   background-color: rgba(56, 51, 101, 1) !important;
 }
 
+.Carousel-Item{
+  border-bottom: 5px solid transparent;;
+}
+
 .active-Carousel-Item{
   border-bottom: 5px solid rgb(56, 51, 101);
 }
