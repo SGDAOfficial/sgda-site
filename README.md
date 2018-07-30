@@ -9,4 +9,4 @@ The Website uses [BootStrap](http://getbootstrap.com/) their website has alot of
 
 ### Did you commit?
 
-Message Dylan on Discord or Messanger directly so I can push to the server.
+sever is currently NOT pushing commits.
