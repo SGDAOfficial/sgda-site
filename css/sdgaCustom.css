@@ -349,6 +349,10 @@ padding-top:10px;
 margin: 0 auto;
 }
 
+.invisible{
+  display: none;
+}
+
 /*Speakers Page*/
 /*.carousel-fade .carousel-item {*/
   /*display: block;*/
