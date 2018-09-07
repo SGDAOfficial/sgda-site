@@ -352,6 +352,9 @@ margin: 0 auto;
 .invisible{
   display: none;
 }
+.maintenance{
+    text-align: center;
+}
 
 /*Speakers Page*/
 /*.carousel-fade .carousel-item {*/
@@ -479,6 +482,10 @@ a.carousel-control-next, a.carousel-control-prev{
   /*border-radius: 0.75rem;*/
   /*background: #383365;*/
   background-color: #383365;
+}
+#Summit-info-head img{
+    padding-left:35%;
+    padding-bottom: 3px;
 }
 
 .summit-info-category{
