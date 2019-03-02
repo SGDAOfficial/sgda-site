@@ -554,24 +554,24 @@ a.carousel-control-next, a.carousel-control-prev{
 }
 
 .club-logo{
-    max-height: 150px;
-    max-width: 300px;
+    max-height: 30%;
+    max-width: 30%;
 }
 
 .club-logo-btn{
-    max-height: 80px;
+    max-height: 30%;
 }
 
 @media (max-width: 767px){
     .club-logo-btn{
-        max-height: 100px;
-        max-width: 225px;
+        max-height: 30%;
+        max-width: 30%;
     }
 }
 @media (min-width: 992px){
     .club-logo-btn{
-        max-height: 100px;
-        max-width: 225px;
+        max-height: 30%;
+        max-width: 30%;
     }
 }
 
