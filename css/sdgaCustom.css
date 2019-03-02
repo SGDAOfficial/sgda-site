@@ -349,6 +349,13 @@ padding-top:10px;
 margin: 0 auto;
 }
 
+.invisible{
+  display: none;
+}
+.maintenance{
+    text-align: center;
+}
+
 /*Speakers Page*/
 /*.carousel-fade .carousel-item {*/
   /*display: block;*/
@@ -389,34 +396,53 @@ margin: 0 auto;
 /*}*/
 
 a.carousel-control-next, a.carousel-control-prev{
-  margin-top: 22.25% !important;
+  margin-top: 21.10% !important;
+}
+@media (max-width: 1300px){
+    a.carousel-control-next, a.carousel-control-prev{
+        margin-top: 21% !important;
+    }
+}
+@media (max-width: 1200px){
+    a.carousel-control-next, a.carousel-control-prev{
+        margin-top: 20.2% !important;
+    }
+}
+@media (max-width: 991px){
+    a.carousel-control-next, a.carousel-control-prev{
+        margin-top: 19.6% !important;
+    }
 }
 @media (max-width: 767px){
     a.carousel-control-next, a.carousel-control-prev{
-        margin-top: 78% !important;
+        margin-top: 74.5% !important;
     }
 }
 @media (max-width: 500px){
     a.carousel-control-next, a.carousel-control-prev{
-        margin-top: 77% !important;
+        margin-top: 73.5% !important;
     }
 }
 @media (max-width: 450px){
     a.carousel-control-next, a.carousel-control-prev{
-        margin-top: 76% !important;
+        margin-top: 71.3% !important;
     }
 }
 @media (max-width: 400px){
     a.carousel-control-next, a.carousel-control-prev{
-        margin-top: 75% !important;
+        margin-top: 70% !important;
     }
 }
-@media (max-width: 350px){
+@media (max-width: 360px){
     a.carousel-control-next, a.carousel-control-prev{
-        margin-top: 74% !important;
+        margin-top: 68.4% !important;
     }
 }
-
+@media (max-width: 320px){
+    a.carousel-control-next, a.carousel-control-prev{
+        margin-top: 66.4% !important;
+    }
+}
 .carousel-indicators>li{
 
   height: 3px !important;
@@ -456,6 +482,10 @@ a.carousel-control-next, a.carousel-control-prev{
   /*border-radius: 0.75rem;*/
   /*background: #383365;*/
   background-color: #383365;
+}
+#Summit-info-head img{
+    padding-left:35%;
+    padding-bottom: 3px;
 }
 
 .summit-info-category{
@@ -524,24 +554,24 @@ a.carousel-control-next, a.carousel-control-prev{
 }
 
 .club-logo{
-    max-height: 150px;
-    max-width: 300px;
+    max-height: 30%;
+    max-width: 30%;
 }
 
 .club-logo-btn{
-    max-height: 80px;
+    max-height: 30%;
 }
 
 @media (max-width: 767px){
     .club-logo-btn{
-        max-height: 100px;
-        max-width: 225px;
+        max-height: 30%;
+        max-width: 30%;
     }
 }
 @media (min-width: 992px){
     .club-logo-btn{
-        max-height: 100px;
-        max-width: 225px;
+        max-height: 30%;
+        max-width: 30%;
     }
 }
 
