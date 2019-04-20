@@ -135,6 +135,7 @@ nav.navbar{
     /*width: 55% !important;*/
   }
 }
+
 @media (max-width: 992px){
   nav.navbar{
     padding-top: .15rem;
@@ -312,6 +313,13 @@ body
     }
 }
 
+/* Mobile button alignment fix? */
+@media only screen and (max-device-width: 1024px) {
+    .myButton{
+        margin: 0px;
+        transform: scale(0.85);
+    }
+}
 
 .business-header {
     height: 50vh;
@@ -433,6 +441,13 @@ a.carousel-control-next, a.carousel-control-prev{
         margin-top: 70% !important;
     }
 }
+
+@media (max-width: 375px){
+    .coverImage{
+        min-width: 105%;
+    }
+}
+
 @media (max-width: 360px){
     a.carousel-control-next, a.carousel-control-prev{
         margin-top: 68.4% !important;
@@ -441,6 +456,10 @@ a.carousel-control-next, a.carousel-control-prev{
 @media (max-width: 320px){
     a.carousel-control-next, a.carousel-control-prev{
         margin-top: 66.4% !important;
+    }
+    
+    .coverImage{
+        min-width: 123%;
     }
 }
 .carousel-indicators>li{
