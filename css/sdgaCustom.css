@@ -131,9 +131,9 @@ nav.navbar{
     -webkit-overflow-scrolling: touch;
   }
 
-  .header-img{
-    /*width: 55% !important;*/
-  }
+  /*.header-img{
+    width: 55% !important;
+  }*/
 }
 
 @media (max-width: 992px){
@@ -682,7 +682,7 @@ button{
 /**Vertically align images**/
 .verticalAlign {
   max-height:100px;
-  width:100%
+  width:100%;
   line-height: 100px;
   vertical-align: middle;
 }
