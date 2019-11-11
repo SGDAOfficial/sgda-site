@@ -695,13 +695,13 @@ button{
     width: 200px;
 }
 
-#carouselExampleIndicators{
+/* #carouselExampleIndicators{
   top: 25px;
   left: 25%;
   right: 25%;
-}
+} */
 
 .carousel-inner > .carousel-item > img {
-  width:640px;
-  height:360px;
+  width:720px;
+  height:480px;
 }
