@@ -694,3 +694,8 @@ button{
     border-radius:100%;
     width: 200px;
 }
+
+.carousel-indicators{
+  width:640px;
+  height:360px;
+}
