@@ -698,7 +698,8 @@ button{
 #carouselExampleIndicators{
   width:720px;
   height:480px;
-  /* top: 25px;
-  left: 25%;
-  right: 25%;   */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
