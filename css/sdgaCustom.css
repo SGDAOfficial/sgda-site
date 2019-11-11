@@ -702,6 +702,9 @@ button{
 } */
 
 .carousel-inner > .carousel-item > img {
+  top: 25px;
+  left: 25%;
+  right: 25%;
   width:720px;
   height:480px;
 }
