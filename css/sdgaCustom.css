@@ -695,7 +695,7 @@ button{
     width: 200px;
 }
 
-.carousel-indicators{
+.carousel-inner{
   width:640px;
   height:360px;
 }
