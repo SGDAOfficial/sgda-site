@@ -702,3 +702,8 @@ button{
   left: 25%;
   right: 25%;
 }
+
+.d-block{
+  width:720px;
+  height: 480px;
+}
