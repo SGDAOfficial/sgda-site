@@ -500,7 +500,7 @@ a.carousel-control-next, a.carousel-control-prev{
   font-size: 2.5rem;
   /*border-radius: 0.75rem;*/
   /*background: #383365;*/
-  background-color: #383365;
+  /* background-color: #383365; */
 }
 #Summit-info-head img{
     padding-left:35%;
