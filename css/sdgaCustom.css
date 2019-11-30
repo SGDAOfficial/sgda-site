@@ -509,7 +509,8 @@ a.carousel-control-next, a.carousel-control-prev{
 
 .summit-info-category{
   font-family: Lato-Light;
-  color: #D4E27F;
+  color: black;
+  /* color: #D4E27F; */
 }
 
 .speaker-card{
