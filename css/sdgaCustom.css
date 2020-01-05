@@ -234,7 +234,7 @@ body
 {
     background: white;
 }
-#links
+#blue-bg
 {
     background: #383365;
     color: white;
@@ -363,45 +363,6 @@ margin: 0 auto;
 .maintenance{
     text-align: center;
 }
-
-/*Speakers Page*/
-/*.carousel-fade .carousel-item {*/
-  /*display: block;*/
-  /*position: relative;*/
-  /*opacity: 0;*/
-  /*transition: opacity .75s ease-in-out;*/
-/*}*/
-/*.carousel-fade .carousel-item.active {*/
-  /*opacity: 1;*/
-  /*display: block;*/
-/*}*/
-/*.carousel-item {*/
-  /*opacity: .5; !*Added clone in this line*!*/
-/*}*/
-/*a.carousel-control-next:link, a.carousel-control-prev:link {*/
-  /*background-color: transparent;*/
-  /*text-decoration: none;*/
-  /*opacity: .5;*/
-/*}*/
-/*a.carousel-control-next:hover, a.carousel-control-prev:hover  {*/
-  /*background-color: transparent;*/
-  /*text-decoration: none;*/
-  /*opacity: 1;*/
-/*}*/
-/*.carousel-control-next-icon, .carousel-control-prev-icon {*/
-  /*position:relative;*/
-  /*background-image: none;*/
-/*}*/
-/*.carousel-control-next-icon:before {*/
-  /*top:0;*/
-  /*left:-5px;*/
-  /*padding-right:10px;*/
-/*}*/
-/*.carousel-control-prev-icon:before {*/
-  /*top:0;*/
-  /*left:-5px;*/
-  /*padding-right:10px;*/
-/*}*/
 
 a.carousel-control-next, a.carousel-control-prev{
   margin-top: 21.10% !important;
@@ -656,17 +617,6 @@ a.carousel-control-next, a.carousel-control-prev{
   transition: all 0.5s ease;
 }
 
-/*clubs Page
-#cpp:hover, #csun:hover, #csulb:hover, #csuf:hover, #ucr:hover, #ucsc:hover, #uci:hover, #ucsd:hover, #usc:hover, #speaker:hover, #workshop:hover, #showcase:hover{
-  background-color: #dee4e8;
-  transform: scale(1.10);
-  -moz-text-replace: scale(1.10);
-  -o-transform: scale(1.10);
-  -webkit-transform: scale(1.10);
-  -ms-transform: scale(1.10);
-  transition: all 0.75s ease;
-}*/
-
 /*Scroll to top button*/
 button{
   cursor: pointer;
@@ -694,11 +644,4 @@ button{
     height: 200px;
     border-radius:100%;
     width: 200px;
-}
-
-#carouselExampleIndicators{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 75%;
 }
