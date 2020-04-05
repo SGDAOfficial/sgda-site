@@ -43,6 +43,12 @@ svg{
   src: url("../fonts/Lato/Lato-Light.ttf") format("opentype");
 }
 
+/*Fredoka One*/
+@font-face {
+font-family: "FredokaOne";
+  src: url("../fonts/Fredoka_One/FredokaOne-Regular.ttf") format("opentype");
+}
+
 .universalBoldFont{
   font-family: "UniversalBold", serif;
   font-weight: 900;
@@ -273,7 +279,7 @@ body
 }
 .titleSection
 {
-    font-family: "UniversalBold", serif;
+    font-family: 'Lato-Bold';
 }
 
 .myButton
