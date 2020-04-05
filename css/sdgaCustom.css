@@ -64,6 +64,10 @@ font-family: "FredokaOne";
   font-family: Lato-Bold;
 }
 
+.fredoka-one-Regular-Fonr{
+  font-family: FredokaOne;
+}
+
 /* makes the font 20% larger relative to the icon container */
 .fa-md-custom {
   font-size: 1.2em;
