@@ -99,16 +99,56 @@
 
 		<!-- ********************* END OF STUDENT FESTIVAL 2020 *********************-->
 
-		<!-- ********************* LINKS TO DISCORD AND TWITCH *********************-->
+		<!-- ******* Embedded Twitch Account
+		-->
 		<div class="container">
 			<p class="m-0 text-center text-white">
-				<a href="https://discord.gg/UvBehap"><img class="icons scale-on-hover-btn-small reverse-transition" src="img/icons/Discord_Icon_small.png"/></a>
-				<a href="https://www.twitch.tv/studentgamesfestival/"><img class="icons icons scale-on-hover-btn-small reverse-transition" src="img/icons/Twitch_Icon_small.png"/></a>
+				<!-- Add a placeholder for the Twitch embed -->
+		    <div id="twitch-embed"></div>
+
+		    <!-- Load the Twitch embed script -->
+		    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+		    <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
+		    <script type="text/javascript">
+		      new Twitch.Embed("twitch-embed", {
+		        width: "100%",
+		        height: 480,
+		        channel: "sgdaofficial",
+		        // only needed if your site is also embedded on embed.example.com and othersite.example.com
+		        parent: ["embed.example.com", "othersite.example.com"]
+		      });
+		    </script>
 			</p>
-			<p class="m-0 text-center text-white">Copyright &copy; 2020 by Student Game Developer Alliance.</p>
-			<!-- <p class="m-0 text-center text-white">Website maintained by Juan Alvarez &amp; Brennan Zuber</p> -->
 		</div>
-		<!-- ********************* END OF LINKS TO DISCORD AND TWITCH *********************-->
+
+		<!-- ******* END OF EMBEDDED TWITCH
+		-->
+
+		<!-- Button Links -->
+		<div class="section">
+		<div class="col-lg-9 mx-auto">
+			<font size="7" class="titleSection">Learn More About Our Event</font><br>
+		</div>
+		</div>
+
+		<div class="row text-center justify-content-center font-weight-500 mb-3 p-3">
+	    <a href="schedule.html" class="d-block p-3 col-md-5 d-block mx-auto event-button m-1">SCHEDULE & VENUE</a>
+	    <a href="speakers.html" class="d-block p-3 col-md-5 d-block mx-auto event-button m-1">SPEAKERS</a>
+	    <a href="workshops.html" class="d-block p-3 col-md-5 d-block mx-auto event-button m-1">WORKSHOPS</a>
+	    <a href="showcase.html" class="d-block p-3 col-md-5 d-block mx-auto event-button m-1">GAMES SHOWCASE</a>
+	  </div>
+		<!-- END of Button Links-->
+
+		<!-- ***** LINK TO DISCORD *****-->
+		<div class="container">
+			<p class="m-0 text-center text-white">
+				<a href="https://discord.gg/UvBehap"><img class="icons scale-on-hover-btn-small reverse-transition" src="img/icons/Join_Discord.png"/></a>
+			</p>
+			<br><br>
+		</div>
+		<!-- ***** END OF LINK TO DISCORD *****-->
+
 
 
 		<!-- ********************* ABOUT *********************-->
@@ -123,11 +163,10 @@
 					Our largest event is an annual, volunteer-run games conference with speaker panels, workshops, and a student games showcase where students can connect and learn about game development.
 					<br><br>
 
-
 				</font>
-				<font face="Lato" size="2" color="#C8C8C8">
-				Brought to you by MobilityWare.
-			</font>
+				<font face="Lato" size="6" color="#C8C8C8">
+				Brought to you by </font> <br>
+			<img src = "img/logos/Mobilityware.png" style="width:300px;height:100px;">
 			</div>
 		</div>
 
@@ -360,7 +399,6 @@
 		</div>
 <!-- end of sponsor us -->
 
-
 		<!-- Footer -->
 		<footer class="py-5 bg-dark footr">
 			<div class="container">
@@ -370,7 +408,8 @@
 					<a href="mailto:sgda.outreach@sgda.io"><img class="icons icons scale-on-hover-btn-small reverse-transition" src="img/icons/Email_Icon_small.png"/></a>
 				</p>
 				<p class="m-0 text-center text-white">Copyright &copy; 2020 by Student Game Developer Alliance.</p>
-				<p class="m-0 text-center text-white">Website maintained by Jessica Wei &amp; Justin Cheung</p>
+				<p class="m-0 text-center text-white"> <font face="Lato" size="2" color="#C8C8C8">
+				Website maintained by Jessica Wei &amp; Justin Cheung </font></p>
 			</div>
 		</footer>
 
