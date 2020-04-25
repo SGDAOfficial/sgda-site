@@ -4,7 +4,7 @@ $(document).ready(function () {
   "use strict"; // Start of use strict
   //Carousel interval timer
   $('.carousel').carousel({
-    interval: 8000
+    interval: 0
   })
 
 //Carousel
