@@ -566,6 +566,25 @@ a.carousel-control-next, a.carousel-control-prev{
     }
 }
 
+.discord-btn-normal{
+    height:30%;
+    width:30%;
+    max-height: 15%
+    max-width: 15%;
+}
+@media (max-width: 767px){
+  .discord-btn-normal{
+    height:80%;
+    width:80%;;
+  }
+}
+@media (max-width 992px){
+  .discord-btn-normal{
+    height:80%;
+    width:80%;
+  }
+}
+
 .club-info:hover{
   cursor: pointer;
   opacity: 0.5;
