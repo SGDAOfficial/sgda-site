@@ -530,7 +530,7 @@ a.carousel-control-next, a.carousel-control-prev{
 }
 
 #adjust-footer{
-  margin-bottom: 310px;
+  margin-bottom: 100px;
 }
 
 /*Events page Game Jam and Summit Buttons*/
@@ -673,6 +673,35 @@ button{
     height: 200px;
     border-radius:100%;
     width: 200px;
+}
+
+/**Circle Images For Officer Page**/
+.officerImg{
+  height: 125px;
+  width: 125px;
+  border: 5px solid black;
+  border-radius: 100%;
+}
+
+/** Proper Formatting For The Team Page **/
+.outreach-leads{
+  text-align: left;
+  text-indent:35px;
+}
+.outreach-officers{
+  text-align: left;
+  text-indent: 0px;
+}
+.marketing-officer{
+  text-align: center;
+}
+.webmaster{
+  text-align: right;
+  margin-right: 15px;
+}
+.webmaster-officer{
+  text-align: right;
+  margin-right: 25px;
 }
 
 /*.carousel .left > i,
