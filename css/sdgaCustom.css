@@ -677,8 +677,8 @@ button{
 
 /**Circle Images For Officer Page**/
 .officerImg{
-  height: 105px;
-  width: 105px;
+  height: 125px;
+  width: 125px;
   border: 5px solid black;
   border-radius: 100%;
 }
