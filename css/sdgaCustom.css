@@ -198,6 +198,12 @@ body
     color: #336db2
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 .coverImage
 {
     height: 100%;
