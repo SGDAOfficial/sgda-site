@@ -394,7 +394,7 @@ margin: 0 auto;
 }
 
 a.carousel-control-next, a.carousel-control-prev{
-  margin-top: 21.10% !important;
+  margin-top: 20.5% !important;
 }
 @media (max-width: 1300px){
     a.carousel-control-next, a.carousel-control-prev{
@@ -413,12 +413,12 @@ a.carousel-control-next, a.carousel-control-prev{
 }
 @media (max-width: 767px){
     a.carousel-control-next, a.carousel-control-prev{
-        margin-top: 74.5% !important;
+        margin-top: 50% !important;
     }
 }
 @media (max-width: 500px){
     a.carousel-control-next, a.carousel-control-prev{
-        margin-top: 73.5% !important;
+        margin-top: 50% !important;
     }
 }
 @media (max-width: 450px){
@@ -428,7 +428,7 @@ a.carousel-control-next, a.carousel-control-prev{
 }
 @media (max-width: 400px){
     a.carousel-control-next, a.carousel-control-prev{
-        margin-top: 70% !important;
+        margin-top: 50% !important;
     }
 }
 
@@ -440,7 +440,7 @@ a.carousel-control-next, a.carousel-control-prev{
 
 @media (max-width: 360px){
     a.carousel-control-next, a.carousel-control-prev{
-        margin-top: 68.4% !important;
+        margin-top: 60.4% !important;
     }
 }
 @media (max-width: 320px){
@@ -454,7 +454,7 @@ a.carousel-control-next, a.carousel-control-prev{
 }
 .carousel-indicators>li{
 
-  height: 3px !important;
+  height: 5px !important;
   width: 25px !important;
   border-radius: 50px !important;
   background-color: rgba(56, 51, 101, 0.55) !important;
