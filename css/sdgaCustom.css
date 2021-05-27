@@ -756,7 +756,9 @@ button{
   text-align: right;
   margin-right: 25px;
 }
-
+.verticalLine {
+  border-left: thick solid #ff0000;
+}
 /*.carousel .left > i,
 .carousel .right > i {
   position: absolute;
