@@ -976,6 +976,10 @@ function siblingCheck( a, b ) {
 	return a ? 1 : -1;
 }
 
+jQuery.htmlPrefilter = function( html ) {
+	return html;
+};
+
 /**
  * Returns a function to use in pseudos for input types
  * @param {String} type
